@@ -46,7 +46,7 @@ function Homelayout({ children }) {
               <Link to="/about">About us</Link>
             </li>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contacts">Contact us</Link>
             </li>
             <li>
               <Link to="/courses">All courses</Link>
