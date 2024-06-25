@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Aboutus from './pages/Aboutus';
 import Contact from './pages/Contact';
 import Notfound from './pages/Notfound';
+import Signup from './pages/Signup';
+import Denied from './pages/Denied';
 
 
 function App() {
@@ -14,8 +16,10 @@ function App() {
     <Routes>
       <Route path='/' element={<Home /> } />
       <Route path='/about' element={<Aboutus /> } />
+      <Route path='/signup' element={<Signup /> } />
       <Route path ='*' element={<Notfound />} />
        <Route path='/contacts' element={<Contact />} />
+       <Route path='/denied' element={<Denied />} />
     </Routes>
 
   )
